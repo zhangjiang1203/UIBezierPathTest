@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54610E431C7411AB0059AF67 /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 54610E411C7411AB0059AF67 /* testImage.png */; };
+		54610E441C7411AB0059AF67 /* testImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 54610E421C7411AB0059AF67 /* testImage2.png */; };
+		54610E481C745DED0059AF67 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54610E461C745DED0059AF67 /* ThirdViewController.m */; };
+		54610E491C745DED0059AF67 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54610E471C745DED0059AF67 /* ThirdViewController.xib */; };
+		549EB9FE1C75A0A300D4E427 /* fire1.png in Resources */ = {isa = PBXBuildFile; fileRef = 549EB9FD1C75A0A300D4E427 /* fire1.png */; };
 		549F21C51C7198390085454C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F21C41C7198390085454C /* main.m */; };
 		549F21C81C7198390085454C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F21C71C7198390085454C /* AppDelegate.m */; };
 		549F21CB1C7198390085454C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F21CA1C7198390085454C /* ViewController.m */; };
 		549F21CE1C7198390085454C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549F21CC1C7198390085454C /* Main.storyboard */; };
 		549F21D01C7198390085454C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549F21CF1C7198390085454C /* Assets.xcassets */; };
 		549F21D31C7198390085454C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549F21D11C7198390085454C /* LaunchScreen.storyboard */; };
+		549F21DD1C71B7130085454C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F21DB1C71B7130085454C /* SecondViewController.m */; };
+		549F21DE1C71B7130085454C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 549F21DC1C71B7130085454C /* SecondViewController.xib */; };
+		549F21E11C71B8D50085454C /* MaskAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F21E01C71B8D50085454C /* MaskAnimation.m */; };
+		7A06675A98B9751275ED6A23 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD09A2FDF4EE82ED95AF422 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16EFDE7E570299C8A462A821 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		54610E411C7411AB0059AF67 /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage.png; sourceTree = "<group>"; };
+		54610E421C7411AB0059AF67 /* testImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage2.png; sourceTree = "<group>"; };
+		54610E451C745DED0059AF67 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		54610E461C745DED0059AF67 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		54610E471C745DED0059AF67 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		549EB9FD1C75A0A300D4E427 /* fire1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire1.png; sourceTree = "<group>"; };
 		549F21C01C7198390085454C /* UIBezierPathTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBezierPathTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		549F21C41C7198390085454C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		549F21C61C7198390085454C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +42,13 @@
 		549F21CF1C7198390085454C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		549F21D21C7198390085454C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		549F21D41C7198390085454C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549F21DA1C71B7130085454C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		549F21DB1C71B7130085454C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		549F21DC1C71B7130085454C /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		549F21DF1C71B8D50085454C /* MaskAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskAnimation.h; sourceTree = "<group>"; };
+		549F21E01C71B8D50085454C /* MaskAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskAnimation.m; sourceTree = "<group>"; };
+		74611A2580A77748F52F1EBA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8DD09A2FDF4EE82ED95AF422 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A06675A98B9751275ED6A23 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +68,8 @@
 			children = (
 				549F21C21C7198390085454C /* UIBezierPathTest */,
 				549F21C11C7198390085454C /* Products */,
+				860DB92630C9D086FB6AF6A9 /* Pods */,
+				7948092BD48938D92967A251 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,8 +91,19 @@
 				549F21CC1C7198390085454C /* Main.storyboard */,
 				549F21CF1C7198390085454C /* Assets.xcassets */,
 				549F21D11C7198390085454C /* LaunchScreen.storyboard */,
+				549EB9FD1C75A0A300D4E427 /* fire1.png */,
+				54610E411C7411AB0059AF67 /* testImage.png */,
+				54610E421C7411AB0059AF67 /* testImage2.png */,
 				549F21D41C7198390085454C /* Info.plist */,
 				549F21C31C7198390085454C /* Supporting Files */,
+				549F21DA1C71B7130085454C /* SecondViewController.h */,
+				549F21DB1C71B7130085454C /* SecondViewController.m */,
+				549F21DC1C71B7130085454C /* SecondViewController.xib */,
+				549F21DF1C71B8D50085454C /* MaskAnimation.h */,
+				549F21E01C71B8D50085454C /* MaskAnimation.m */,
+				54610E451C745DED0059AF67 /* ThirdViewController.h */,
+				54610E461C745DED0059AF67 /* ThirdViewController.m */,
+				54610E471C745DED0059AF67 /* ThirdViewController.xib */,
 			);
 			path = UIBezierPathTest;
 			sourceTree = "<group>";
@@ -79,6 +116,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7948092BD48938D92967A251 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DD09A2FDF4EE82ED95AF422 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		860DB92630C9D086FB6AF6A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16EFDE7E570299C8A462A821 /* Pods.debug.xcconfig */,
+				74611A2580A77748F52F1EBA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 549F21D71C7198390085454C /* Build configuration list for PBXNativeTarget "UIBezierPathTest" */;
 			buildPhases = (
+				97FF6FD2925FCCA0B14C9B93 /* Check Pods Manifest.lock */,
 				549F21BC1C7198390085454C /* Sources */,
 				549F21BD1C7198390085454C /* Frameworks */,
 				549F21BE1C7198390085454C /* Resources */,
+				5A5B2E738C7E6A624CE03BC8 /* Embed Pods Frameworks */,
+				438985E5B3859084744CA763 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,19 +193,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54610E491C745DED0059AF67 /* ThirdViewController.xib in Resources */,
+				549F21DE1C71B7130085454C /* SecondViewController.xib in Resources */,
 				549F21D31C7198390085454C /* LaunchScreen.storyboard in Resources */,
+				549EB9FE1C75A0A300D4E427 /* fire1.png in Resources */,
 				549F21D01C7198390085454C /* Assets.xcassets in Resources */,
 				549F21CE1C7198390085454C /* Main.storyboard in Resources */,
+				54610E441C7411AB0059AF67 /* testImage2.png in Resources */,
+				54610E431C7411AB0059AF67 /* testImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		438985E5B3859084744CA763 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A5B2E738C7E6A624CE03BC8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97FF6FD2925FCCA0B14C9B93 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		549F21BC1C7198390085454C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				549F21DD1C71B7130085454C /* SecondViewController.m in Sources */,
+				549F21E11C71B8D50085454C /* MaskAnimation.m in Sources */,
+				54610E481C745DED0059AF67 /* ThirdViewController.m in Sources */,
 				549F21CB1C7198390085454C /* ViewController.m in Sources */,
 				549F21C81C7198390085454C /* AppDelegate.m in Sources */,
 				549F21C51C7198390085454C /* main.m in Sources */,
@@ -261,6 +374,7 @@
 		};
 		549F21D81C7198390085454C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16EFDE7E570299C8A462A821 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIBezierPathTest/Info.plist;
@@ -272,6 +386,7 @@
 		};
 		549F21D91C7198390085454C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74611A2580A77748F52F1EBA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIBezierPathTest/Info.plist;
@@ -300,6 +415,7 @@
 				549F21D91C7198390085454C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
